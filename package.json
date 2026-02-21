@@ -1,6 +1,6 @@
 {
   "name": "simple-forum-mobile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple forum mobile app",
   "main": "expo-router/entry",
   "scripts": {
