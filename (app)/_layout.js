@@ -1,1 +1,0 @@
-import { Stack } from 'expo-router';\n\nexport default function AppLayout() {\n  return (\n    <Stack screenOptions={{ headerShown: false }}>\n      <Stack.Screen name=\"home\" />\n      <Stack.Screen name=\"create-post\" />\n      <Stack.Screen name=\"post/[id]\" />\n      <Stack.Screen name=\"profile/[id]\" />\n    </Stack>\n  );\n}\n
