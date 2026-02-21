@@ -1,7 +1,7 @@
 import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
-let API_URL = 'http://localhost:3000'; // Default
+let API_URL = 'https://simple-forum-api.onrender.com'; // Default
 
 export const setApiUrl = (url) => {
   API_URL = url;
